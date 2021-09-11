@@ -28,7 +28,7 @@ public class Individual extends Payer{
 		} else {
 			tax = 0.25;
 		}
-		return (anualIncome * tax) - (healthExpenditures - 0.5);			
+		return (anualIncome * tax) - (healthExpenditures * 0.5);			
 	}
 	
 }
